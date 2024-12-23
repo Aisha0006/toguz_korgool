@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Манкала</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <div id="game-board">
+        <div class="pit" id="p1-store">
+            <div class="store" id="p1-store-content"></div>
+            <span class="label">Игрок 1</span>
+        </div>
+        <div class="pits" id="pits-p1">
+            <div class="pit" data-index="0"></div>
+            <div class="pit" data-index="1"></div>
+            <div class="pit" data-index="2"></div>
+            <div class="pit" data-index="3"></div>
+            <div class="pit" data-index="4"></div>
+            <div class="pit" data-index="5"></div>
+            <div class="pit" data-index="6"></div>
+            <div class="pit" data-index="7"></div>
+            <div class="pit" data-index="8"></div>
+        </div>
+        <div class="pits" id="pits-p2">
+            <div class="pit" data-index="8"></div>
+            <div class="pit" data-index="7"></div>
+            <div class="pit" data-index="6"></div>
+            <div class="pit" data-index="5"></div>
+            <div class="pit" data-index="4"></div>
+            <div class="pit" data-index="3"></div>
+            <div class="pit" data-index="2"></div>
+            <div class="pit" data-index="1"></div>
+            <div class="pit" data-index="0"></div>
+        </div>
+        <div class="pit" id="p2-store">
+            <div class="store" id="p2-store-content"></div>
+            <span class="label">Игрок 2</span>
+        </div>
+    </div>
+    <button id="reset-button">Сбросить</button>
+    <script src="main.js"></script>
+</body>
+</html>
